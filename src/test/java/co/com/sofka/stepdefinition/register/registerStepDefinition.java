@@ -1,4 +1,4 @@
-package co.com.sofka.stepdefinition;
+package co.com.sofka.stepdefinition.register;
 
 import co.com.sofka.dashboard.OverviewRegister;
 import co.com.sofka.setUp.setUp;

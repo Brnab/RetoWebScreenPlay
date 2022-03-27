@@ -12,5 +12,8 @@ public class OverviewRegister {
     public static Question<String> MessageFail(){
         return actor -> TextContent.of(WelcomeOverview.FailMessage).viewedBy(actor).asString().trim();
     }
+    public static Question<String> MessageFailLogIn(){
+        return actor -> TextContent.of(WelcomeOverview.FailMessageLogIn).viewedBy(actor).asString().trim();
+    }
 
 }
