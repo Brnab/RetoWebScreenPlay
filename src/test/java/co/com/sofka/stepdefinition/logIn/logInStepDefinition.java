@@ -103,7 +103,7 @@ public class logInStepDefinition extends setUp {
 
         theActorInTheSpotlight().should(
 
-                seeThat("el mensaje de error es ", OverviewRegister.MessageFailLogIn(), equalTo("Authentication failed."))
+                seeThat("el mensaje de error es el siguiente ", OverviewRegister.MessageFailLogIn(), equalTo("Authentication failed."))
         );
 
 

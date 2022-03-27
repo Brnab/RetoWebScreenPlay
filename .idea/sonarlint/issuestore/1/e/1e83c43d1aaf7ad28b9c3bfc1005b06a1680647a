@@ -1,0 +1,15 @@
+
+g	java:S116"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü©
+d	java:S116"ORename this field "City" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑùÛ
+h	java:S116"NRename this field "Zip" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»•ó…ÿÿÿÿÿ
+k	java:S116"QRename this field "Mobile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬şúáùÿÿÿÿ
+w
+java:S1450"URemove the "Mobile" field and declare it as a local variable in the relevant methods.(¬şúáùÿÿÿÿ8Ì«òËü/
+o
+java:S1450"TRemove the "state" field and declare it as a local variable in the relevant methods.(µîŠ©øÿÿÿÿ
+D
+java:S1068")Remove this unused "state" private field.(µîŠ©øÿÿÿÿ
+L
+java:S1068"*Remove this unused "Mobile" private field.(¬şúáùÿÿÿÿ8Ô«òËü/
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àˆ¯œ
+f	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·»³Ì

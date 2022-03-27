@@ -1,0 +1,15 @@
+
+g	java:S116"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü©
+d	java:S116"ORename this field "City" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑùÛ
+h	java:S116"NRename this field "Zip" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»•ó…ÿÿÿÿÿ
+k	java:S116"QRename this field "Mobile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬şúáùÿÿÿÿ
+o
+java:S1450"TRemove the "state" field and declare it as a local variable in the relevant methods.(µîŠ©øÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ğ”„Îüÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.PrimitiveIterator'.(‘‚È¿şÿÿÿÿ
+D
+java:S1068")Remove this unused "state" private field.(µîŠ©øÿÿÿÿ
+f	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤õä
+f	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯æ¤™

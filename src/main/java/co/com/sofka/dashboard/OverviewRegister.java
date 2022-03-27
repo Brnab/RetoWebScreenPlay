@@ -16,4 +16,16 @@ public class OverviewRegister {
         return actor -> TextContent.of(WelcomeOverview.FailMessageLogIn).viewedBy(actor).asString().trim();
     }
 
+
+    public static Question<String> MessageContactUs(){
+        return actor -> TextContent.of(WelcomeOverview.MessageContact).viewedBy(actor).asString().trim();
+    }
+
+
+    public static Question<String> MessageContactUsFail(){
+        return actor -> TextContent.of(WelcomeOverview.MessageContactFail).viewedBy(actor).asString().trim();
+    }
+
+
+
 }
