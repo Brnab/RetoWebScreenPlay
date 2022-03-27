@@ -9,6 +9,7 @@ import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
 
 import static co.com.sofka.task.register.FillRegister.fillRegister;
+import static co.com.sofka.task.register.FillRegisterFail.fillRegisterFail;
 import static co.com.sofka.task.register.NavigatetoRegister.navigatetoRegister;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -88,7 +89,7 @@ public class registerStepDefinition extends setUp {
     @When("no ingreso el numero de telefono")
     public void no_ingreso_el_numero_de_telefono() {
         theActorInTheSpotlight().attemptsTo(
-                fillRegister()
+                fillRegisterFail()
                         .usingEmail(faker.internet().emailAddress())
                         .usingFirstName(faker.name().firstName())
                         .usingLastName(faker.name().lastName())
@@ -106,6 +107,12 @@ public class registerStepDefinition extends setUp {
 
     @Then("el sistema debe informar que hace falta el numero de telefono")
     public void el_sistema_debe_informar_que_hace_falta_el_numero_de_telefono() {
+        theActorInTheSpotlight().should(
+
+                seeThat( "el mensaje fallido es ", OverviewRegister.MessageFail() , equalTo("You must register at least one phone number."))
+
+        );
+
 
     }
 

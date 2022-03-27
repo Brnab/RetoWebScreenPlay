@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Registro en la pagina web" skipped="0" tests="1" time="43.9" timestamp="2022-03-26 07:49:49"><testcase name="Registro exitoso en la pagina"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Registro en la pagina web" skipped="0" tests="2" time="36.14" timestamp="2022-03-26 10:48:15"><testcase name="Registro exitoso en la pagina"/><testcase name="Registro incorrecto"/></testsuite>

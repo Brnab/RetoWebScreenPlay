@@ -14,4 +14,8 @@ public class RegisterMessage implements Question<String> {
     public String answeredBy(Actor actor) {
         return BrowseTheWeb.as(actor).find(WelcomeOverview.WelcomeMessage).getText();
     }
+
+
+
+
 }
