@@ -17,10 +17,6 @@ m
 =src/test/java/co/com/sofka/runners/register/registerTest.java,8\1\810f4960fe2b18d1a654405bea98dc36985d4fc1
 n
 >src/main/java/co/com/sofka/question/register/RegisterFail.java,3\d\3deba17a71f34f49e3f17f288b571843c257d716
-q
-Asrc/main/java/co/com/sofka/question/register/RegisterMessage.java,8\e\8eed334bd25b456e756485c117f8edb23f58bfc6
-n
->src/main/java/co/com/sofka/question/logIn/logInSucessfull.java,d\f\df4af027ee5c56e794936ba2e7900518d1810466
 ~
 Nsrc/test/java/co/com/sofka/stepdefinition/register/registerStepDefinition.java,3\e\3ea77bc28e54875c262955517c78a751ab7dd2c6
 s
